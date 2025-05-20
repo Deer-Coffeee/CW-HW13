@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "166bc275-58dc-4f31-b22c-9efb36831525",
+		"name": "LibraryHW13",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43886538",
+		"_collection_link": "https://innokenty-2656670.postman.co/workspace/Innokenty's-Workspace~f2423a00-71b0-4fb0-87aa-a42ac230ada2/collection/43886538-166bc275-58dc-4f31-b22c-9efb36831525?action=share&source=collection_link&creator=43886538"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3555/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3555/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3555",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3555/api/books",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3555/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3555",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3555/api/books/genre/status?genre=fantasy&status=on_stock",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3555/api/books/genre/status?genre=fantasy&status=on_stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3555",
+					"path": [
+						"api",
+						"books",
+						"genre",
+						"status"
+					],
+					"query": [
+						{
+							"key": "genre",
+							"value": "fantasy"
+						},
+						{
+							"key": "status",
+							"value": "on_stock"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
